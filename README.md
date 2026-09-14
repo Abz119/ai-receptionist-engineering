@@ -4,6 +4,14 @@
 
 > This repository documents architecture and engineering decisions only. Production code, customer data, provider credentials, private prompts and practice-specific knowledge remain private.
 
+## Product preview
+
+<p align="center">
+  <img src="assets/ai-receptionist-handoff.png" alt="AI receptionist conversation demonstrating appointment handoff to a dental practice" width="420" />
+</p>
+
+The demonstrative conversation shows a safe handoff flow: the assistant gathers details, confirms the next step and records an outcome for the practice team. All names, practice details and contact information shown are test data.
+
 ## Problem
 
 A useful receptionist must answer common questions quickly while respecting the boundaries of each practice. The system therefore needs more than a chat UI: it needs tenant isolation, grounded answers, escalation paths, observability and safe failure behaviour.
